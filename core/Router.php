@@ -4,7 +4,7 @@ class Router
 {
     public function handleRequest()
     {
-        $basePath = '/php_project_site';
+        $basePath = '/php_starter_insite';
         $uri = strtok($_SERVER['REQUEST_URI'], '?');
 
         if (strpos($uri, $basePath) === 0) {
