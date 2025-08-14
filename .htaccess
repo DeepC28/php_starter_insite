@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /php_project_site/
+    RewriteBase /php_starter_insite/
 
     # ถ้าไฟล์หรือโฟลเดอร์นั้นมีจริง ให้ Apache ให้โหลดไฟล์นั้นเลย
     RewriteCond %{REQUEST_FILENAME} !-f
