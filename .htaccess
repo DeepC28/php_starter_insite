@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /php_project_site/
+
+    # ถ้าไฟล์หรือโฟลเดอร์นั้นมีจริง ให้ Apache ให้โหลดไฟล์นั้นเลย
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # ถ้าไม่ใช่ไฟล์หรือโฟลเดอร์ที่มีจริง ให้ส่งคำขอทั้งหมดไป index.php
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

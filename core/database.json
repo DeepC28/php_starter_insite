@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "first_name": "Supawich",
+            "last_name": "kunbunjan",
+            "username": "valentine",
+            "email": "kuma.tachi.cb@gmail.com",
+            "password": "$2y$10$zvy76\/xb3MA1lLGDVUFGhevCkuEF3zdNPORc2j9m6gUSl2p3dhm1W",
+            "phone": "0980134952",
+            "gender": null,
+            "birthdate": null,
+            "address": "18\/1 Sapanma , saiburi",
+            "avatar": null,
+            "role": "user",
+            "status": 1,
+            "created_at": "2025-08-14 06:46:44",
+            "updated_at": "2025-08-14 06:47:22",
+            "id": 1
+        }
+    ]
+}
